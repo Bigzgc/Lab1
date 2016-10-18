@@ -8,7 +8,7 @@ public class EvaExpression {
 	//主程序，表达式的输入
     public static void main(String args[]){
     	String Nstr = "";
-    	System.out.println("输入'Exit'退出程序！");//哈哈哈
+    	System.out.println("输入'Exit'退出程序！");//嘻嘻嘻
     	Scanner n = new Scanner(System.in);
     	ProExpression exp = new ProExpression();
     	long starTime=System.currentTimeMillis();//测试程序运行时间
