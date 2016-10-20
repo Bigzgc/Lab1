@@ -22,7 +22,7 @@ public class EvaExpression {
     		exp.ProExp(Nstr);
     		System.out.println("程序开始时间："+starTime+"毫秒");//哈哈
     		long endTime=System.currentTimeMillis();//
-    		System.out.println("程序结束时间："+endTime+"毫秒");//
+    		System.out.println("程序结束时间："+endTime+"毫秒");//烦死了
     		long Time=endTime-starTime;//
     		System.out.println("程序执行时间："+Time+"毫秒");//
     	}
