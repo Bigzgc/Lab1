@@ -21,7 +21,7 @@ public class EvaExpression {
     	}
 		long endTime=System.currentTimeMillis();//
 		long Time=endTime-starTime;//
-		System.out.println("程序执行时间："+Time+"毫秒");//
+		System.out.println("程序执行时间："+Time+"毫秒");//改什么啊，烦死了
     	n.close();
     }
 }
