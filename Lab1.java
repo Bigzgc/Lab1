@@ -1,27 +1,31 @@
-package lab1;
-
+package lab;
 import java.util.Arrays;
 import java.util.Scanner;   
 import java.util.regex.Pattern;   
+
+//lab2 change
+//lab1 code
 
 public class EvaExpression {
 	//主程序，表达式的输入
     public static void main(String args[]){
     	String Nstr = "";
-    	System.out.println("输入'Exit'退出程序！");//嘻嘻嘻
+    	System.out.println("输入'Exit'退出程序！");
     	Scanner n = new Scanner(System.in);
     	ProExpression exp = new ProExpression();
-    	long starTime=System.currentTimeMillis();//测试程序运行时间
     	while(true){
     		Nstr = n.nextLine();//输入
     		if("Exit".equals(Nstr)){
     			break;
     		}
+    		long starTime=System.currentTimeMillis();//测试程序运行时间
     		exp.ProExp(Nstr);
+    		System.out.println("程序开始时间："+starTime+"毫秒");//
+    		long endTime=System.currentTimeMillis();//
+    		System.out.println("程序结束时间："+endTime+"毫秒");//
+    		long Time=endTime-starTime;//
+    		System.out.println("程序执行时间："+Time+"毫秒");//
     	}
-		long endTime=System.currentTimeMillis();//
-		long Time=endTime-starTime;//
-		System.out.println("程序执行时间："+Time+"毫秒");//快来
     	n.close();
     }
 }
@@ -306,4 +310,3 @@ class ProExpression{
 		}
 	}
 }
-
