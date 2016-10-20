@@ -20,7 +20,7 @@ public class EvaExpression {
     		}
     		long starTime=System.currentTimeMillis();//测试程序运行时间
     		exp.ProExp(Nstr);
-    		System.out.println("程序开始时间："+starTime+"毫秒");//
+    		System.out.println("程序开始时间："+starTime+"毫秒");//哈哈
     		long endTime=System.currentTimeMillis();//
     		System.out.println("程序结束时间："+endTime+"毫秒");//
     		long Time=endTime-starTime;//
